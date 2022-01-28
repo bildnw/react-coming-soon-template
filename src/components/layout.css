@@ -9,7 +9,7 @@ body, html {
 
 .bgimg {
   /* Background image */
-  background-image: url('../images/bg-coming-soon.jpeg');
+  background-image: url('../images/test-bg.svg');
   /* Full-screen */
   min-height: 100vh;
   height: 100%;
@@ -32,6 +32,18 @@ body, html {
   position: absolute;
   top: 0;
   left: 16px;
+}
+
+.mytop {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+
 }
 
 /* Position text in the bottom-left corner */
@@ -61,20 +73,27 @@ hr {
 
 .bg-layout {
   width: 100%;
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgba(0,214,194, 0.91);
   display: block;
   min-height: 100vh;
   height: 100%;
 }
 
 .h1 {
-  color: #DDD;
-  font-size: 48px;
+  color: white;
+  font-size: 72px;
   margin: 20px 0;
   font-weight: bold;
 }
 
 .brand-logo {
+  width: 160px;
+  border-radius: 10px;
+
+}
+
+.Logo {
+  background-image: url(../images/bildnw-logo.png);
   width: 160px;
   border-radius: 10px;
 }
