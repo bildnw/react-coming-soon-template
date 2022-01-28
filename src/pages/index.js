@@ -28,6 +28,7 @@ class IndexPage extends React.Component {
     return(
       <Layout>
         <div className="bgimg">
+          <link rel="icon" type="image/png" href="src/images/favicon.png"/>
           <div className="bg-layout">
           <Particles className="particles" params={particlesOptions} />
             <div className="mytop">
